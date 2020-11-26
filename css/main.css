@@ -171,6 +171,7 @@ textarea {
   border-radius: 0;
   position: absolute;
   background-image: url("logo.png");
+  background-size: 60px;
 }
 .git {
   top: 0;
@@ -179,7 +180,8 @@ textarea {
   left: 384px;
   border-radius: 0px;
   position: absolute;
-  background-image: url("image 1.png");
+  background-image: url("image.png");
+  background-size: 60px;
 }
 .main-container {
   position: absolute;
@@ -239,9 +241,9 @@ textarea {
   top: 16px;
 }
 .like {
-  left: 237px;
-  top: -1px;
-  width: 100px;
+  left: 226px;
+  top: -8px;
+  width: 120px;
 }
 .buy {
   left: 12px;
