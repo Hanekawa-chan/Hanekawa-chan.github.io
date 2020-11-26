@@ -164,33 +164,35 @@ textarea {
   clear: both;
 }
 .logo {
-  top: 3px;
-  left: 3px;
-  height: 30px;
-  width: 30px;
-  border-radius: 0px;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 0;
   position: absolute;
+  background-image: url("logo.png");
 }
 .git {
-  top: 3px;
-  height: 30px;
-  width: 30px;
-  left: 1887px;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  left: 384px;
   border-radius: 0px;
   position: absolute;
+  background-image: url("image 1.png");
 }
 .main-container {
   position: absolute;
-  width: 291px;
-  height: 64px;
-  left: 814.5px;
-  top: 42%;
+  width: 500px;
+  height: 60px;
+  left: 37%;
+  top: 47%;
 }
 .next {
   position: absolute;
-  width: 225px;
-  height: 30px;
-  top: 34px;
+  width: 60px;
+  height: 60px;
+  left: 192px;
   background: #C4C4C4;
   border-radius: 24px;
 }
@@ -198,52 +200,27 @@ textarea {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bolder;
-  font-size: 12px;
-  line-height: 8px;
+  font-size: 20px;
+  line-height: 20px;
   text-align: center;
 }
-.left {
-  position: absolute;
-  width:0;
-  height: 30px;
-  border: 1px solid black;
-}
 .line {
-  left:2px;
-  top:13px;
+  left: 0;
+  top: 420px;
   position: absolute;
-  width: 225px;
-  height: 5px;
+  width: 1920px;
+  height: 10px;
 
   background: #C4C4C4;
   border-radius: 22px;
 }
-.right {
-  position: absolute;
-  left: 227px;
-  width:0;
-  height: 30px;
-  border: 1px solid black;
-}
 .button {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
 
   background: #C4C4C4;
   border-radius: 22.5px;
-}
-.l {
-  left: 230px;
-}
-.t {
-  top: 0;
-}
-.b {
-  top: 34px;
-}
-.r {
-  left: 261px;
 }
 .but {
   position: absolute;
@@ -251,22 +228,37 @@ textarea {
   left: 0;
   top: 0;
   bottom: 0;
+  width: 27px;
 }
 .play {
-  left: 9.5px;
-  top: 7.5px;
+  left: 17px;
+  top: 13px;
 }
 .stop {
-  left: 10px;
-  top: 10px;
+  left: 16px;
+  top: 16px;
 }
 .like {
-  left: 220.5px;
-  top: 33.5px;
+  left: 237px;
+  top: -1px;
+  width: 100px;
 }
 .buy {
-  left: 8px;
-  top: 9.5px;
+  left: 12px;
+  top: 16px;
+  width: 35px;
+}
+.p {
+  left: 64px;
+}
+.s {
+  left: 128px;
+}
+.l {
+  left: 256px;
+}
+.b {
+  left: 320px;
 }
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
